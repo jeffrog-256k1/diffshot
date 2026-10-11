@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducible problem using fictional or public test content.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the command, expected result, actual result, OS, and browser version. Remove private URL paths and query values.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal local fixture
+      description: Share a small fictional HTML/CSS example. Do not attach private reports, cookies, API keys, or real user data.
